@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andicar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Andicar Logo"> 
+                <h1>Andicar</h1>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Busca" id="search-input">
+            </div>
+            <div class="user-section">
+                <div class="session">
+                    <span>Hola,</span>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle">Inicia Sesión <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="login.html">Iniciar Sesión</a></li>
+                            <li><a href="register.html">Registrarse</a></li>
+                            <li><a href="my-account.html">Mi cuenta</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="cart.html" class="cart-link">
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Mi Carrito</span>
+                        <span id="cart-total">S/ 0.00</span> </div>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <button class="categories-btn" id="category-btn"><i class="fas fa-bars"></i> CATEGORÍAS</button>
+            <button class="contact-btn">Contactar</button>
+        </div>
+    </nav>
+
+    <div class="side-menu" id="category-menu">
+        <h2>Hola!</h2>
+        <ul>
+            <li><a href="products.html">Siliconas</a></li>
+            <li><a href="ceras.html">Ceras</a></li>
+            <li><a href="shampoo.html">Shampoo para Auto</a></li>
+            <li><a href="farosled.html">Faros led</a></li>
+            <li><a href="accesorios.html">Accesorios</a></li>
+            <li><a href="polarizados.html">Polarizados</a></li>
+            <li><a href="#">Rollo de banner</a></li>
+            <li><a href="#">Rollo de viniles</a></li>
+            <li><a href="stikers.html">Stickers</a></li>
+            <li><a href="rollscreen.html">Roll Screen</a></li>
+            <li><a href="tarjetaspresentacion.html">Tarjetas de presentacion</a></li>
+            <li><a href="señaleticas.html">Señaleticas</a></li>
+        </ul>
+    </div>
+
+    <main class="hero">
+        <div class="container hero-container">
+            <div class="hero-text" style="padding-bottom: 80px;">
+                <h2>Gigantografías</h2>
+                <h2>Viniles</h2>
+                <h1 class="brand-name">Andicar</h1>
+                <p>Venta de accesorios para autos</p>
+                <div class="contact-social">
+                    <a href="contact.html"class="contact-btn">Contactar</a>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/pablo.cabellos.98?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/51987654321" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/AndicarOficial" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/impresora.png" alt="Impresora de gigantografías" class="printer-image">
+            </div>
+             <div class="car-image-container">
+                <img src="images/auto.png" alt="Auto con cobertor" class="car-image">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

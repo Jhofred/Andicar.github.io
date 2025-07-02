@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Andicar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration:none; color:inherit;"><h1>Andicar</h1></a>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Busca">
+            </div>
+            <div class="user-section">
+                <div class="session">
+                    <span>Hola,</span>
+                    <a href="#">Inicia Sesión <i class="fas fa-chevron-down"></i></a>
+                </div>
+                <a href="cart.html" class="cart-link">
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Mi Carrito</span>
+                        <span id="cart-total">S/ 0.00</span> </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <button class="categories-btn" id="category-btn"><i class="fas fa-bars"></i> CATEGORÍAS</button>
+            <a href="contact.html" class="contact-btn">Contactar</a>
+        </div>
+    </nav>
+     <div class="side-menu" id="category-menu">
+        <h2>Hola!</h2>
+        <ul>
+            <li><a href="products.html">Siliconas</a></li>
+            <li><a href="ceras.html">Ceras</a></li>
+            <li><a href="shampoo.html">Shampoo para Auto</a></li>
+            <li><a href="farosled.html">Faros led</a></li>
+            <li><a href="accesorios.html">Accesorios</a></li>
+            <li><a href="polarizados.html">Polarizados</a></li>
+            <li><a href="#">Rollo de banner</a></li>
+            <li><a href="#">Rollo de viniles</a></li>
+            <li><a href="stikers.html">Stickers</a></li>
+            <li><a href="rollscreen.html">Roll Screen</a></li>
+            <li><a href="tarjetaspresentacion.html">Tarjetas de presentacion</a></li>
+            <li><a href="señaleticas.html">Señaleticas</a></li>
+        </ul>
+    </div>
+    
+    <div class="side-menu" id="category-menu">
+        </div>
+        
+
+
+    <main class="contact-page">
+        <div class="contact-container">
+            <div class="contact-form-wrapper">
+                <h1 class="contact-title">Contactanos</h1>
+                <form action="#" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="correo" placeholder="Correo" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" required>
+                    <select name="provincia" required>
+                        <option value="" disabled selected>Seleccione Provincia</option>
+                        <option value="lima">Lima</option>
+                        <option value="arequipa">Arequipa</option>
+                        <option value="cajamarca">Cajamarca</option>
+                    </select>
+                    <select name="servicio" required>
+                        <option value="" disabled selected>Seleccionar Servicio</option>
+                        <option value="gigantografias">Gigantografías</option>
+                        <option value="viniles">Viniles</option>
+                        <option value="accesorios">Accesorios para auto</option>
+                    </select>
+                    <textarea name="mensaje" placeholder="Escribir Texto" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="contact-info-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>indicar.pe@hotmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+51)987 456 321</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(+51)987 456 321</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Lunes a Sábado de<br>8:30AM a 7:00PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
